@@ -1,0 +1,13 @@
+{
+  "model_name": "XGBoost Regressor",
+  "task": "movie_revenue_prediction",
+  "business_task": "movie_commercial_success_prediction",
+  "target": "gross",
+  "training_target_transform": "log1p",
+  "prediction_output": "gross",
+  "inverse_transform_inside_pipeline": true,
+  "algorithm": "XGBRegressor",
+  "dataset": "data/processed/output.csv",
+  "final_model": true,
+  "selection_reason": "По результатам сравнительного анализа моделей наилучшее качество прогнозирования на тестовой выборке показала модель XGBoost, поэтому она была выбрана в качестве основной модели интеллектуального модуля веб-сервиса."
+}

@@ -1,0 +1,103 @@
+{
+  "raw_input_columns": [
+    "name",
+    "rating",
+    "genre",
+    "year",
+    "released",
+    "score",
+    "votes",
+    "director",
+    "writer",
+    "star",
+    "country",
+    "budget",
+    "gross",
+    "company",
+    "runtime"
+  ],
+  "model_input_columns": [
+    "rating",
+    "genre",
+    "year",
+    "score",
+    "votes",
+    "director",
+    "writer",
+    "star",
+    "country",
+    "budget",
+    "company",
+    "runtime"
+  ],
+  "required_input_fields": [
+    "rating",
+    "genre",
+    "year",
+    "score",
+    "votes",
+    "director",
+    "writer",
+    "star",
+    "country",
+    "budget",
+    "company",
+    "runtime"
+  ],
+  "optional_metadata_fields": [
+    "title",
+    "name",
+    "released"
+  ],
+  "categorical_features": [
+    "rating",
+    "genre",
+    "director",
+    "writer",
+    "star",
+    "country",
+    "company"
+  ],
+  "numeric_features": [
+    "runtime",
+    "score",
+    "year",
+    "votes",
+    "log_budget",
+    "budget_vote_ratio",
+    "budget_runtime_ratio",
+    "budget_score_ratio",
+    "vote_score_ratio",
+    "budget_year_ratio",
+    "vote_year_ratio",
+    "score_runtime_ratio",
+    "budget_per_minute",
+    "votes_per_year",
+    "is_recent",
+    "is_high_budget",
+    "is_high_votes",
+    "is_high_score"
+  ],
+  "engineered_features": [
+    "log_budget",
+    "budget_vote_ratio",
+    "budget_runtime_ratio",
+    "budget_score_ratio",
+    "vote_score_ratio",
+    "budget_year_ratio",
+    "vote_year_ratio",
+    "score_runtime_ratio",
+    "budget_per_minute",
+    "votes_per_year",
+    "is_recent",
+    "is_high_budget",
+    "is_high_votes",
+    "is_high_score"
+  ],
+  "unused_columns": [
+    "name",
+    "released",
+    "gross"
+  ],
+  "target_column": "gross"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Example Action Movie",
+  "rating": "PG-13",
+  "genre": "Action",
+  "year": 2024,
+  "released": "July 15, 2024",
+  "score": 7.2,
+  "votes": 150000,
+  "director": "Christopher Nolan",
+  "writer": "Jonathan Nolan",
+  "star": "Tom Hardy",
+  "country": "United States",
+  "budget": 50000000,
+  "company": "Warner Bros.",
+  "runtime": 120
+}
